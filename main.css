@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f8f8f8;
+  padding: 20px 40px;
+}
+
+header .logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #c00;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #333;
+}
+
+.cta {
+  background:;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+}
+
+.hero {
+  display: flex;
+  padding: 60px 40px;
+  background: #111;
+  color: white;
+}
+
+.hero-text {
+  flex: 1;
+}
+
+.hero-text h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.hero-btn {
+  background: #e60073;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.hero-image {
+  position: relative;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-image img {
+  width: 250px;
+  border-radius: 10px;
+}
+
+.label {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background: #c05;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+.services {
+  padding: 60px 40px;
+  background: #fff;
+}
+
+.services h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.service {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.service img {
+  width: 150px;
+  margin-right: 20px;
+}
+
+.contact {
+  background: #26bcd7;
+  padding: 60px 40px;
+  color: white;
+}
+
+.contact-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.map img {
+  width: 300px;
+  height: auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: none;
+}
+
+form button {
+  background: #00a86b;
+  color: white;
+  padding: 10px;
+  border: none;
+}
+footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f8f8f8;
+  padding: 20px 40px;
+}
+footer.logo{
+  font-size: 24px;
+  font-weight: bold;
+  color: #c00;
+}
